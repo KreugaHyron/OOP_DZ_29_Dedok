@@ -2,7 +2,7 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-bool compareLength(const std::string& str1, const std::string& str2) {
+bool compareLength(const string& str1, const string& str2) {
     return str1.length() < str2.length();
 }
 class CompareLength {
